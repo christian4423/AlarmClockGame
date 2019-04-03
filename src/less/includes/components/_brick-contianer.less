@@ -1,0 +1,16 @@
+.brick-container {
+    height: 100%;
+    width: 100%;
+    max-width: 500px;
+    max-height: 500px;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+    justify-self: center;
+    align-self: center;
+    place-self: center;
+    grid-area: main-body-container;
+    @import './_brick.less';
+}

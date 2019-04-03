@@ -1,0 +1,35 @@
+.__brick{
+    border: 2px solid black;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    background-color: lightgray;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    text-align: center;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    place-items: center;
+    font-family: 'Montserrat', sans-serif;
+    &--floral-white {
+        background-color: @floral-white;
+        color: @red-brown;
+    }
+    &--red-brown {
+        background-color: @red-brown;
+        color: @beige;
+    }
+    &--pineapple {
+        background-color: @pineapple;
+        color: @beige;
+    }
+    &--charcoal {
+        background-color: @charcoal;
+    }
+    &--beige {
+        background-color: @beige;
+        color: @pineapple;
+    }
+}

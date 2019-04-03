@@ -1,0 +1,34 @@
+@import 'includes/variables/_screens';
+@import 'includes/variables/_colors';
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+    font-size: 16px;
+    font-size: 100%;
+    display: grid;
+    background: url('http://www.ingham.org/Portals/_default/Skins/ingham/images/featured-bg.gif');
+    @import 'includes/components/_container.less';
+    @import 'includes/components/_navbar.less';
+    @import 'includes/components/_body.less';
+    @import 'includes/components/_brick-contianer.less';
+}
+hr {
+    width: 95%;
+}
+
+.btn{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
